@@ -1,0 +1,82 @@
+/* src/components/ClaimsTable.css */
+
+.claims-section {
+    padding: 20px;
+  }
+  
+  .claims-header {
+    margin-bottom: 20px;
+  }
+  
+  .claims-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .claims-header p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .claims-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filter-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #eaeaea;
+  }
+  
+  .claims-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .claims-table th, .claims-table td {
+    padding: 10px;
+    border: 1px solid #eaeaea;
+  }
+  
+  .claims-table th {
+    background-color: #f9f9f9;
+  }
+  
+  .approve-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  

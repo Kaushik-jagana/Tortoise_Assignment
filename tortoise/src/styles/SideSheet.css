@@ -1,0 +1,39 @@
+.sidesheet {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.sidesheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nav-item .nav-link {
+  cursor: pointer;
+}
+
+.nav-item .nav-link.active {
+  font-weight: bold;
+}
+
+.payment-section, .document-section {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
